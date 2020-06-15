@@ -11,7 +11,7 @@ A css theme for github.com, changing icons, diff and buttons to colorblind-frien
 ![alt text](link "desc")
 
 ## Credits
-- `Diff` color choice based on [Daniel Hemberger: GitHub Diff Colorblind-Friendly](https://userstyles.org/styles/149864/github-diff-colorblind-friendly)
+- `diff` color choice based on [Daniel Hemberger: GitHub Diff Colorblind-Friendly](https://userstyles.org/styles/149864/github-diff-colorblind-friendly)
 - Color scheme modified from IBM Design Library, with the help of the website [Coloring for Colorblindness
 ](https://davidmathlogic.com/colorblind/#%23648FFF-%238AABFF-%23FFEEBA-%23FFD371-%23FFB000)
 - Installation instructions based on [burglarbenson/Jupyter-Atom-Dark-Theme](https://github.com/burglarbenson/Jupyter-Atom-Dark-Theme)
