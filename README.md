@@ -9,8 +9,10 @@ A css theme for github.com, changing icons, diff and buttons to colorblind-frien
 
 ## Screenshots
 ![diff](screenshots/diff.png)
-![issues](screenshots/issues.png)
 ![pullreq](screenshots/pullreq.png)
+![issues](screenshots/issues.png)
+![codefreq](screenshots/codefreq.png)
+
 
 ## Color substitutions:
 - `green-subs`: ![#648FFF](https://via.placeholder.com/15/648FFF/648FFF?text=+) `#648FFF`
