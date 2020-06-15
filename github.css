@@ -1,84 +1,124 @@
-.blob-code-deletion {
-    background-color: #FFEEBA;
-  }
-  
-.blob-num-deletion {
-    background-color: #FFCC33;
+ /*
+The following CSS variables define colorblind-friendly styling for github.com
+*/
+
+/* Main color substitutions */
+:root {
+    --green-subs: #FFB000;
+    --red-subs-light: #FFD371;
+    --red-subs-lighter: #FFEEBA;
+    --red-subs: #648FFF;
+    --green-subs-light: #8AABFF;
+    --green-subs-lighter: #D5E3F9;
+    --ibm-2: #785EF0;
+    --ibm-3: #DC267F;
+    --ibm-4: #FE6100;
 }
 
-.blob-code-deletion .x {
-    background-color: #FFCC33;
-}
-
-.blob-code-addition {
-    background-color: #D5E3F9;
-}
-
-.blob-num-addition {
-    background-color: #7FB1FB;
-}
-
-.blob-code-addition .x {
-    background-color: #7FB1FB;
-}
-
-.open.octicon {
-    color: #7FB1FB;
-}
-
-.closed.octicon, .reverted.octicon {
-    color: #FFCC33;
-}
-
-.State--green {
-    background-color: #7FB1FB;
-}
-
+/* GENERAL*/
 .text-green {
-    color: #7FB1FB!important;
+    color: var(--green-subs)!important;
 }
 
 .text-red {
-    color: #FFCC33!important;
+    color: var(--red-subs)!important;
+}
+
+/* DIFF */
+.blob-code-deletion {
+    background-color: var(--red-subs-lighter);
+  }
+
+.blob-num-deletion {
+    background-color: var(--red-subs-light);
+}
+
+.blob-code-deletion .x {
+    background-color: var(--red-subs-light);
+}
+
+.blob-code-addition {
+    background-color: var(--green-subs-lighter);
+}
+
+.blob-num-addition {
+    background-color: var(--green-subs-light);
+}
+
+.blob-code-addition .x {
+    background-color: var(--green-subs-light);
 }
 
 .diffstat-block-added {
-    background-color: #7FB1FB;
+    background-color: var(--green-subs);
 }
 
 .diffstat-block-deleted {
-    background-color: #FFCC33;
+    background-color: var(--red-subs);
 }
 
-span.no-nl-marker {
-    color: #FFCC33;
-}
-
-.summary-stats li .octicon-git-branch {
-    color: #7FB1FB;
-}
-
-.summary-stats li .octicon-issue-closed {
-    color: #FFCC33;
-}
-
-.summary-stats li .octicon-issue-opened {
-    color: #7FB1FB;
-}
-
+/* DANGER*/
 .btn-danger {
-    color: #FFCC33;
-    transition: none;
+    color: var(--red-subs);
+}
+
+.btn-danger:hover, [open]>.btn-danger {
+    background-color: var(--red-subs);
 }
 
 .Box--danger, .Box--danger .Box-body:last-of-type, .Box--danger .Box-row:first-of-type {
-    border-color: #FFCC33;
+    border-color: var(--red-subs);
 }
 
-.btn-primary {
-    background-color: #7FB1FB;
+
+/* ISSURES and PULL REQUESTS*/
+.open.octicon {
+    color: var(--green-subs);
 }
 
-.btn-primary.hover, .btn-primary:hover, [open]>.btn-primary {
-    background-color: #D5E3F9;
+.closed.octicon, .reverted.octicon {
+    color: var(--red-subs);
+}
+
+/* INSIGHTS*/
+/* Pulse */
+
+.summary-stats li .octicon-issue-opened {
+    color: var(--green-subs);
+}
+
+.summary-stats li .octicon-issue-closed {
+    color: var(--red-subs);
+}
+
+.summary-stats li .octicon-git-branch {
+    color: var(--green-subs);
+}
+
+.authors-and-code .insertions {
+    color: var(--green-subs);
+}
+
+.authors-and-code .insertions {
+    color: var(--green-subs);
+}
+
+.authors-and-code .deletions {
+    color: var(--red-subs);
+}
+
+/* Code frequency */
+.cadd {
+    color: var(--green-subs);
+}
+.code-frequency .addition {
+    fill: var(--green-subs);
+}
+
+.cdel {
+    color: var(--red-subs);
+}
+
+.code-frequency .deletion {
+    fill: var(--red-subs);
 }
