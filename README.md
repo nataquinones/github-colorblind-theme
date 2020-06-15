@@ -29,7 +29,7 @@ A css theme for github.com, changing icons, diff and buttons to colorblind-frien
 - Installation instructions based on [burglarbenson/Jupyter-Atom-Dark-Theme](https://github.com/burglarbenson/Jupyter-Atom-Dark-Theme)
 
 ## Contribute
-Any additions or modifications to the color palette are very welcome. I am not colorblind myself, so feedback would be great!
+Feel free to add features or modify the color palette. I am not colorblind myself, so any feedback would be extremely helpful!
 
 ---
 > ⚠️ Warning: Avoid the Stylish extension, see [here](https://github.com/jupyterlab/jupyterlab/issues/3844#issuecomment-372986375)
