@@ -8,7 +8,9 @@ A css theme for github.com, changing icons, diff and buttons to colorblind-frien
 2. Install the theme: [Github-Colorblind-Theme](https://userstyles.org/styles/185247/github-colorblind-theme)
 
 ## Screenshots
-![alt text](link "desc")
+![diff](screenshots/diff.png)
+![issues](screenshots/issues.png)
+![pullreq](screenshots/pullreq.png)
 
 ## Credits
 - `diff` color choice based on [Daniel Hemberger: GitHub Diff Colorblind-Friendly](https://userstyles.org/styles/149864/github-diff-colorblind-friendly)
