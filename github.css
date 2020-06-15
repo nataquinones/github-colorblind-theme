@@ -6,12 +6,12 @@ The following CSS variables define colorblind-friendly styling for github.com
 {
     /* Main color substitutions */
     :root {
-       --green-subs: #FFB000;
-       --red-subs-light: #FFD371;
-       --red-subs-lighter: #FFEEBA;
-       --red-subs: #648FFF;
+       --green-subs: #648FFF;
        --green-subs-light: #8AABFF;
        --green-subs-lighter: #D5E3F9;
+       --red-subs: #FFB000;
+       --red-subs-light: #FFD371;
+       --red-subs-lighter: #FFEEBA;
        --ibm-2: #785EF0;
        --ibm-3: #DC267F;
        --ibm-4: #FE6100;
