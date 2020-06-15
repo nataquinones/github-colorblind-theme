@@ -12,6 +12,14 @@ A css theme for github.com, changing icons, diff and buttons to colorblind-frien
 ![issues](screenshots/issues.png)
 ![pullreq](screenshots/pullreq.png)
 
+## Color substitutions:
+- `green-subs`: ![#648FFF](https://via.placeholder.com/15/648FFF/648FFF?text=+) `#648FFF`
+- `green-subs-light`: ![#8AABFF](https://via.placeholder.com/15/8AABFF/8AABFF?text=+) `#8AABFF`
+- `green-subs-lighter`: ![#D5E3F9](https://via.placeholder.com/15/D5E3F9/D5E3F9?text=+) `#D5E3F9`
+- `red-subs`: ![#FFB000](https://via.placeholder.com/15/FFB000/FFB000?text=+) `##FFB000`
+- `red-subs-light`: ![#FFD371](https://via.placeholder.com/15/FFD371/FFD371?text=+) `#FFD371`
+- `red-subs-lighter`: ![#FFEEBA](https://via.placeholder.com/15/FFEEBA/FFEEBA?text=+) `#FFEEBA`
+
 ## Credits
 - `diff` color choice based on [Daniel Hemberger: GitHub Diff Colorblind-Friendly](https://userstyles.org/styles/149864/github-diff-colorblind-friendly)
 - Color scheme modified from IBM Design Library, with the help of the website [Coloring for Colorblindness
